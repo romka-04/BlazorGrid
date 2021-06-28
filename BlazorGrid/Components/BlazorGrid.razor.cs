@@ -34,6 +34,7 @@ namespace BlazorGrid.Components
 
         [Parameter] public ProviderDelegate<TRow> Provider { get; set; }
         [Parameter] public int VirtualItemSize { get; set; } = 50;
+        [Parameter] public int OverscanCount { get; set; } = 3;
         [Parameter] public RenderFragment<TRow> ChildContent { get; set; }
         [Parameter] public TRow EmptyRow { get; set; }
         [Parameter] public string Query { get; set; }

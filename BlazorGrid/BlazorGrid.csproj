@@ -4,8 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
     <RazorLangVersion>3.0</RazorLangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>Akinzekeel.BlazorGrid</PackageId>
-    <Version>1.0.5</Version>
+    <PackageId>RomanC.BlazorGrid</PackageId>
+    <Version>1.0.6-alpha</Version>
     <Preview></Preview>
     <Authors>Majid Iqbal</Authors>
     <Company />
@@ -13,8 +13,9 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://blazorgrid.z6.web.core.windows.net/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Akinzekeel/BlazorGrid</RepositoryUrl>
-    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReleaseNotes>add property 'OverscanCount' in order to help control the size of loaded from server data batch.</PackageReleaseNotes>
     <PackageTags>Blazor, data grid</PackageTags>
+    <FileVersion>1.0.6.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

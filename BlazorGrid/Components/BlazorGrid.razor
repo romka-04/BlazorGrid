@@ -95,7 +95,7 @@
                 }
                 else
                 {
-                    <Virtualize ItemsProvider="GetItemsVirtualized" @ref="VirtualizeRef" ItemSize="VirtualItemSize">
+                    <Virtualize ItemsProvider="GetItemsVirtualized" @ref="VirtualizeRef" ItemSize="VirtualItemSize" OverscanCount="OverscanCount">
                         <Placeholder>
                             <div class="grid-row grid-row-placeholder" aria-label="@Resources.Loading_Text">
                                 @foreach (var col in Columns)
